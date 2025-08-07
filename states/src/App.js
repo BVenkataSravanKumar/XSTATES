@@ -111,7 +111,7 @@ function App() {
 
       {(selectedCountry && selectedState && selectedCity) && (
         <p className="summary">
-          You have selected <strong>{selectedCity}</strong>, {selectedState}, {selectedCountry} 
+          <strong>You selected {selectedCity}</strong>, {selectedState}, {selectedCountry} 
         </p>
       )}
     </div>
